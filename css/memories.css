@@ -143,7 +143,9 @@
 		margin-bottom:50%;
 		overflow: hidden;
 		transform-origin:center bottom;
-		animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
+		animation:box_to_point 18.5s 0s/**消失时候的小球,bounce 2.5s 18.5s*/;
+		animation-fill-mode:forwards;
+		
 	}
 }
 
@@ -301,7 +303,7 @@
 		left: 10%;
 		bottom: 12%;
 	}
-	96% {
+	100% {
 		margin-bottom:0;
 		width: 80%;
 		height: 70%;
@@ -311,7 +313,7 @@
 		left: 10%;
 		bottom: 12%;
 	}
-	100% {
+/**字幕框消失	100% {
 		margin-bottom:0;
 		width:50px;
 		height:50px;
@@ -321,6 +323,7 @@
 		left: 48%;
 		bottom: 50%;
 	}
+	**/
 }
 @-webkit-keyframes box_to_point{
 	0% {
