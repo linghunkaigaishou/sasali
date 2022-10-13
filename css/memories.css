@@ -485,9 +485,9 @@
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
 	animation-delay:3s;
-	animation-fill-mode:forwards;
 	-webkit-animation:ly-stxt01_move 15s;
 	-webkit-animation-delay:3s;
+	animation-fill-mode:forwards;
 }
 
 .ly-stxt02 {
@@ -629,15 +629,15 @@
 	0% {opacity:0;}
 	8% {opacity:1;}
 	90% {opacity:1;}
-	98% {opacity:0;}
-	100% {opacity:0;}
+	98% {opacity:1;}
+	100% {opacity:1;}
 }
 @-webkit-keyframes ly-stxt01_move{
 	0% {opacity:0;}
 	8% {opacity:0;}
 	90% {opacity:1;}
-	98% {opacity:0;}
-	100% {opacity:0;}
+	98% {opacity:1;}
+	100% {opacity:1;}
 }
 
 
