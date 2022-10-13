@@ -485,6 +485,7 @@
 	opacity: 0;
 	animation:ly-stxt01_move 15s;
 	animation-delay:3s;
+	animation-fill-mode:forwards;
 	-webkit-animation:ly-stxt01_move 15s;
 	-webkit-animation-delay:3s;
 }
