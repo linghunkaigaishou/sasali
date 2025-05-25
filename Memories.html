@@ -11,6 +11,47 @@
     <link rel="icon" href="/img/2.png">
     <link rel="stylesheet" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/memories.css" />
+<style>
+        .greeting-card {
+            width: 90%;
+            max-width: 600px;
+            min-height: 400px;
+            margin: 20px auto;
+            padding: 30px;
+            background: #fffaf0;
+            border: 1px solid #d4a76a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .header {
+            font-family: "楷体", serif;
+            font-size: 1.8em;
+            color: #8b4513;
+            text-align: left; /* 修改为居左 */
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #d4a76a;
+        }
+
+        .content {
+            font-size: 1.1em;
+            line-height: 1.8;
+            text-align: justify;
+            text-justify: inter-ideograph;
+            padding: 20px 0;
+            flex-grow: 1;
+        }
+
+        .footer {
+            text-align: right;
+            font-style: italic;
+            padding-top: 15px;
+            border-top: 1px dashed #d4a76a;
+        }
+    </style>
   </head>
 
   <body>
@@ -27,50 +68,27 @@
         src="https://music.163.com/outchain/player?type=2&id=480353&auto=1&height=66"
       ></iframe>
     </div>
+
     <div class="bgcolor">
       <div style="z-index: 100" id="dowebok">
         <!--第一屏-->
         <div class="section">
           <div class="ly-box01" >
             <div class="ly-txt01" ">
-              
-			  <p class="ly-stxt01">
-					To&nbsp;:&nbsp;莎莎小仙女🧚
-				
-              </p>
-			  	<p class="ly-stxt01">
-                &nbsp;
-				
-              </p>
-			  <p class="ly-stxt01">
-                
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				你的生日🎂就在今天，🎉祝你可爱😊依旧，快乐😀多多！！！
-              </p>
-			  	 <p class="ly-stxt01">
-                &nbsp;
-				
-              </p>
-			  	<p class="ly-stxt01">
-                
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			    
-		         &nbsp;&nbsp;-&nbsp;From a cutie pie missing you❤️
-              </p>
-			  	<p class="ly-stxt01">
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			    &nbsp;
-		        &nbsp;&nbsp;-&nbsp;2022/10/15🌹
-				
-              </p>
+             
+
+<div class="greeting-card">
+        <div class="header">To&nbsp;:&nbsp;莎莎小仙女🧚    </div>
+        
+        <div class="ly-txt01">
+	&nbsp;&nbsp;你的生日🎂就在今天，🎉祝你可爱😊依旧，快乐😀多多！！！
+        </div>
+        
+        <div class="footer">
+From a cutie pie missing you❤️<br>
+2022/10/15🌹
+        </div>
+    </div>
 
             </div>
 
